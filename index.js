@@ -24,7 +24,7 @@ const getZenQuote = async ctx => {
 
 server(
   { log: "debug", env: "development" },
-  get("/", [
+  adsfasdfasdfasdfget("/", [
     getZenQuote,
     async ctx => {
       return render("index.pug", { zen: ctx.zen });
